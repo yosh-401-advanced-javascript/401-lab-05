@@ -1,0 +1,33 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "main": "players-schema.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "startDB": "mkdir -p ./.db && mongod --dbpath ./.db"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "mongodb-memory-server": "^5.1.5",
+    "mongoose": "^5.6.9",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosh-401-advanced-javascript/401-lab-05.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yosh-401-advanced-javascript/401-lab-05/issues"
+  },
+  "homepage": "https://github.com/yosh-401-advanced-javascript/401-lab-05#readme",
+  "description": ""
+}
