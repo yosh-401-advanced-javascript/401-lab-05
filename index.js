@@ -28,7 +28,7 @@ const categories = new Categories();
 // .catch(err => console.log(error));
 
 categories.update('5d5a3c3cb12c624f7c59cd0e', {name: 'Josh'})
-.then(console.log)
-.catch(console.log);
+  .then(console.log)
+  .catch(console.log);
 
 // mongoose.disconnect();
